@@ -4,31 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Portfolio FCR</title>
-    <meta name="description" content="Description de la page pour les moteurs de recherche">
     <link rel="stylesheet" href="../Assets/Style/main.css">
+    <link rel="stylesheet" href="../Assets/Style/index.css">
 </head>
 
 <body>
     <header>
-        <h1>Portfolio Fanny Costes-Rossignol</h1>
+        <h1 class="logoHeader">Portfolio Fanny Costes-Rossignol</h1>
         <nav>
-            <ul>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">Articles</a></li>
-                <li><a href="#">À propos</a></li>
+            <ul class="linksHeader">
+                <li><a href="./index.html">Accueil</a></li>
+                <li><a href="./articles.html">Articles</a></li>
+                <li><a href="./about.html">À propos</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section>
-            <h2>Bienvenue sur mon blog !</h2>
-            <p>Etudiante en bachelor informatique...</p>
+        <section class="introAndAside">
+            <section class="introBlog">
+                <h2>Bienvenue sur mon blog !</h2>
+                <p class="introText">Etudiante en bachelor informatique à Toulouse Ynov Campus, découvrez mes expériences dans le domaine à travers les articles de ce blog.</p>
+                <a class="toArticles" href="#">Parcourir les articles</a>
+            </section>
+    
+            <aside>
+                <img class="cvImg" src="../Assets/Imgs/CV.png" alt="CV de Fanny">
+            </aside>
+        </section>
+
+        <section class="lastArticlesSection">
+            <h2>Derniers articles</h2>
+
+            <div class="fourLastArticles">
+                <article class="article">
+                    <img class="articleImg" src="../Assets/Imgs/bongoTest1.jpg" alt="Image dernier article numéro un">
+                    <h3>Article 1</h3>
+                    <p>01/01/24</p>
+                </article>
+                <article class="article">
+                    <img class="articleImg" src="../Assets/Imgs/bongoTest2.jpg" alt="Image dernier article numéro un">
+                    <h3>Article 2</h3>
+                    <p>01/01/24</p>
+                </article>
+                <article class="article">
+                    <img class="articleImg" src="../Assets/Imgs/bongoTest3.jpg" alt="Image dernier article numéro un">
+                    <h3>Article 3</h3>
+                    <p>01/01/24</p>
+                </article>
+                <article class="article">
+                    <img class="articleImg" src="../Assets/Imgs/bongoTest4.jpg" alt="Image dernier article numéro un">
+                    <h3>Article 4</h3>
+                    <p>01/01/24</p>
+                </article>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>Mentions légales</p>
+        <a href="#">Mentions légales</a>
     </footer>
 </body>
 </html>

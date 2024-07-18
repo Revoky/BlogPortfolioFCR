@@ -1,0 +1,106 @@
+/*____________________ INTRO AND ASIDE ____________________*/
+
+.introAndAside {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top : 3%;
+    margin-left : 12%;
+    margin-right : 15%;
+}
+
+.introBlog {
+    flex: 1;
+}
+
+.introText {
+    margin-bottom: 10%;
+    color: #F2B8A2;
+}
+
+.toArticles {
+    background-color: #d47898;
+    color: #000000;
+    border: 2px solid #F2B8A2;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.toArticles:hover {
+    background-color: #613443;
+    color: #F2B8A2;
+}
+
+aside {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cvImg {
+    width: 30vw;
+    height: auto;
+    opacity: 90%;
+}
+
+/*____________________ ARTICLES ____________________*/
+
+.lastArticlesSection {
+    text-align: center;
+    margin: 100px 0;
+}
+
+.lastArticlesSection h2 {
+    font-size: 35px;
+    color: #613443;
+    margin-bottom: 50px;
+}
+
+.fourLastArticles {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 0 10%;
+}
+
+.fourLastArticles article {
+    background-color: #d6bbb0;
+    border: 1px solid #d47898;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.fourLastArticles article:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.articleImg {
+    width: 100%;
+    height: 200px;
+    background-color: #613443;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+article h3 {
+    font-size: 1.5em;
+    color: #613443;
+    margin-bottom: 10px;
+}
+
+article p {
+    font-size: 1em;
+    color: #8d766d;
+}

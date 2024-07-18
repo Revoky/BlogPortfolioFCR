@@ -1,0 +1,94 @@
+/*
+Dark Red (bg body) : #240707
+Dark Purple (bg head foot) : #3a0f0f
+Dark Blue Highlight: #26232A
+Light Pink: #d47898
+Light Coral: #F2B8A2
+Neutral Light White : #E0E1DD
+Light Blue : #68A3C3
+*/
+
+/*____________________ GENERAL ____________________*/
+
+body {
+    background-color: #240707;
+    color: #E0E1DD;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*____________________ HEADER ____________________*/
+
+header {
+    background-color: #3a0f0f;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #d47898;
+}
+
+.logoHeader {
+    color: #d47898;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #F2B8A2;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #d47898;
+}
+
+/* Main Content Styles */
+main h2 {
+    color: #d47898;
+    font-size: 28px;
+}
+
+main p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/*____________________ TITLES ____________________*/
+
+h1, h2, h3, h4, h5, h6 {
+    color: #c28197;
+}
+
+/*____________________ FOOTER ____________________*/
+
+footer {
+    background-color: #3a0f0f;
+    color: #E0E1DD;
+    padding: 40px;
+    text-align: center;
+    border-top: 1px solid #d47898;
+}
+
+footer a {
+    text-decoration: none;
+    color: #F2B8A2;
+}
+
+footer a:hover {
+    color: #d47898;
+}
