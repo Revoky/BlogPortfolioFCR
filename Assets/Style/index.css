@@ -2,20 +2,18 @@
 
 .introAndAside {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    margin-top : 3%;
-    margin-left : 12%;
-    margin-right : 15%;
+    margin : 8vh 14vw 3vw 10vw;
 }
 
 .introBlog {
-    flex: 1;
+    padding: 3vw;
 }
 
 .introText {
-    margin-bottom: 10%;
-    color: #F2B8A2;
+    margin-bottom: 7vh;
+    color: #dab0a0;
 }
 
 .toArticles {
@@ -32,14 +30,8 @@
 }
 
 .toArticles:hover {
-    background-color: #613443;
+    background-color: #3a0f0f;
     color: #F2B8A2;
-}
-
-aside {
-    flex: 1;
-    display: flex;
-    justify-content: flex-end;
 }
 
 .cvImg {
@@ -52,32 +44,24 @@ aside {
 
 .lastArticlesSection {
     text-align: center;
-    margin: 100px 0;
+    margin: 5vw 0;
 }
 
-.lastArticlesSection h2 {
-    font-size: 35px;
-    color: #613443;
-    margin-bottom: 50px;
-}
 
 .fourLastArticles {
     display: flex;
     justify-content: space-evenly;
-    align-items: stretch;
     flex-wrap: wrap;
-    gap: 30px;
-    margin: 0 10%;
+    margin: 3vw 8vw;
 }
 
 .fourLastArticles article {
     background-color: #d6bbb0;
     border: 1px solid #d47898;
     border-radius: 10px;
-    padding: 20px;
+    padding: 1.2vw;
     flex: 1;
-    max-width: 300px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 15vw;
     transition: transform 0.2s;
 }
 
@@ -94,13 +78,7 @@ aside {
     object-fit: cover;
 }
 
-article h3 {
-    font-size: 1.5em;
-    color: #613443;
-    margin-bottom: 10px;
-}
-
-article p {
-    font-size: 1em;
-    color: #8d766d;
+.fourLastArticles article h3 {
+    margin-top: 3vh;
+    margin-bottom: 1vh;
 }

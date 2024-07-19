@@ -1,0 +1,58 @@
+.articlesSection {
+    margin: 7vh 15vw;
+}
+
+.articlesSection h2 {
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.articleList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vw;
+    justify-content: center;
+}
+
+.article {
+    background-color: #d6bbb0;
+    border: 1px solid #d47898;
+    border-radius: 10px;
+    padding: 1.2vw;
+    width: 20vw;
+    max-width: 300px;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.articleImg {
+    width: 100%;
+    height: 200px;
+    background-color: #613443;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.article h3 {
+    font-size: 25px;
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+}
+
+.articleDesc {
+    font-size: 17px;
+    text-align: center;
+    color: #240707;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    width: 100%;
+}

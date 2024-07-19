@@ -1,0 +1,37 @@
+.aboutSection {
+    margin: 5% 20%;
+    color: #F2B8A2;
+    background-color: #3a0f0f;
+    padding: 2vw;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #1a0606;
+}
+
+.aboutSection h2 {
+    font-size: 35px;
+    color: #d47898;
+    text-align: center;
+}
+
+.aboutSection h3 {
+    font-size: 28px;
+    color: #c04b72;
+}
+
+.contactList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contactList li {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.contactList li a {
+    color: #d47898;
+}
+
+.contactList li a:hover {
+    color: #c43063;
+}

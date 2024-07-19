@@ -1,28 +1,45 @@
 /*
+
 Dark Red (bg body) : #240707
-Dark Purple (bg head foot) : #3a0f0f
-Dark Blue Highlight: #26232A
-Light Pink: #d47898
-Light Coral: #F2B8A2
-Neutral Light White : #E0E1DD
-Light Blue : #68A3C3
+Dark Purple (bg header footer) : #3a0f0f
+Pink : #d47898
+Coral : #F2B8A2
+Light coral (text) : #dab0a0
+
 */
 
 /*____________________ GENERAL ____________________*/
 
 body {
     background-color: #240707;
-    color: #E0E1DD;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+}
+
+h1 {
+    color: #c28197;
+}
+
+h2 {
+    color: #c28197;
+    font-size: 33px;
+}
+
+h3 {
+    color: #3a0f0f;
+}
+
+main p {
+    font-size: 20px;
+    line-height: 1.6;
 }
 
 /*____________________ HEADER ____________________*/
 
 header {
     background-color: #3a0f0f;
-    padding: 2%;
+    padding: 1.6vw 3vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,56 +47,43 @@ header {
 }
 
 .logoHeader {
-    color: #d47898;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-nav ul li {
-    margin-left: 20px;
-}
-
-nav ul li a {
-    color: #F2B8A2;
     text-decoration: none;
+    color: #d47898;
+    font-size: 25px;
     font-weight: bold;
-    font-size: 18px;
 }
 
-nav ul li a:hover {
-    color: #d47898;
+.linksHeader {
+    min-width: 22vw;
+    list-style: none;
+    margin-right: 3vw;
+    display: flex;
+    justify-content: space-between;
 }
 
-/* Main Content Styles */
-main h2 {
-    color: #d47898;
-    font-size: 28px;
+.linksHeader li a {
+    background-color: #d47898;
+    color: #000000;
+    border: 2px solid #F2B8A2;
+    text-decoration: none;
+    padding: 7px 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 13px;
 }
 
-main p {
-    font-size: 18px;
-    line-height: 1.6;
-}
-
-/*____________________ TITLES ____________________*/
-
-h1, h2, h3, h4, h5, h6 {
-    color: #c28197;
+.linksHeader li a:hover {
+    background-color: #4b1b1b;
+    color: #F2B8A2;
 }
 
 /*____________________ FOOTER ____________________*/
 
 footer {
     background-color: #3a0f0f;
-    color: #E0E1DD;
-    padding: 40px;
+    padding: 2vw;
     text-align: center;
     border-top: 1px solid #d47898;
 }
