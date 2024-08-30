@@ -1,0 +1,21 @@
+.singleArticle {
+    margin: 5% 15%;
+    background-color: #3a0f0f;
+    color: #F2B8A2;
+    box-shadow: 0 4px 8px #1a0606;
+    border-radius: 10px;
+    padding: 2vw;
+}
+
+.singleArticle h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.articleImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 25%;
+    border-radius: 5px;
+}

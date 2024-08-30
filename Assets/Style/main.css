@@ -72,6 +72,7 @@ header {
     font-weight: bold;
     cursor: pointer;
     border-radius: 13px;
+    transition: color 0.8s ease;
 }
 
 .linksHeader li a:hover {
@@ -88,9 +89,24 @@ footer {
     border-top: 1px solid #d47898;
 }
 
-footer a {
-    text-decoration: none;
+.socialIcons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 30px;
+}
+
+.socialIcons a {
+    transition: color 0.3s ease;
     color: #F2B8A2;
+}
+
+.linksFooter {
+    text-decoration: none;
+    transition: color 0.3s ease;
+    color: #F2B8A2;
+    margin-top: 1.5%;
+    display: inline-block;
 }
 
 footer a:hover {
