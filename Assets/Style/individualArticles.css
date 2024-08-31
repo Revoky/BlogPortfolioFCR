@@ -76,3 +76,14 @@ ul {
     background-color: #3a0f0f;
     color: #F2B8A2;
 }
+
+.articleIllu {
+    height: 40vh;
+    width: auto;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}

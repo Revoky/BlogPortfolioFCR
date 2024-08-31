@@ -1,10 +1,14 @@
 .aboutSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 5% 20%;
     color: #F2B8A2;
     background-color: #3a0f0f;
-    padding: 2vw;
     border-radius: 10px;
     box-shadow: 0 4px 8px #1a0606;
+    line-height: 30px;
 }
 
 .aboutSection h2 {

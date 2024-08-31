@@ -9,12 +9,18 @@ Light coral (text) : #dab0a0
 */
 
 /*____________________ GENERAL ____________________*/
+html {
+    height: 100%;
+}
 
 body {
     background-color: #240707;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 h1 {
@@ -28,6 +34,10 @@ h2 {
 
 h3 {
     color: #3a0f0f;
+}
+
+main {
+    flex: 1;
 }
 
 main p {
