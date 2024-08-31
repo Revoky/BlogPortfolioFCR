@@ -18,4 +18,61 @@
     margin-right: auto;
     max-width: 25%;
     border-radius: 5px;
+    margin-bottom: 4%;
+}
+
+.paragraphTitle {
+    color: #d47898;
+}
+
+ul {
+    line-height: 30px;
+}
+
+.presentationIMM {
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.titleIMM {
+    color: #d47898;
+    text-align: center;
+}
+
+.pub {
+    text-align: center;
+    border: 2px solid #F2B8A2;
+    border-radius: 15px;
+    width: 60%;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.toArticles {
+    background-color: #d47898;
+    color: #000000;
+    border: 2px solid #F2B8A2;
+    text-decoration: none;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+    width: 30%;
+    min-width: 30%;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 2%;
+    transition: color 0.8s ease;
+}
+
+.toArticles:hover {
+    background-color: #3a0f0f;
+    color: #F2B8A2;
 }
