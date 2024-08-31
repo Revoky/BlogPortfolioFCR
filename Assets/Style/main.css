@@ -119,6 +119,6 @@ footer {
     display: inline-block;
 }
 
-footer a:hover {
+.linksFooter:hover {
     color: #d47898;
 }
