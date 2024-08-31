@@ -66,7 +66,7 @@
     margin: 3vw 8vw;
 }
 
-.fourLastArticles article {
+.fourLastArticles a {
     background-color: #d6bbb0;
     border: 1px solid #d47898;
     border-radius: 10px;
@@ -74,9 +74,10 @@
     flex: 1;
     max-width: 15vw;
     transition: transform 0.2s;
+    text-decoration: none;
 }
 
-.fourLastArticles article:hover {
+.fourLastArticles a:hover {
     transform: scale(1.05);
     cursor: pointer;
 }
